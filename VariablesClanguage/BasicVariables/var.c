@@ -2,9 +2,13 @@
 
 int main(void)
 {
-    int i = 2;
-    float f = 3.14;
-    char *s = "Hello, world!";  // char * ("char pointer") is the string type
+    int     i;
+    float   f;
+    char    *s;
 
+    i = 2;
+    f = 3.14;
+    s = "Hello, world!";
     printf("%s  i = %d and f = %f!\n", s, i, f);
+    return (0);
 }
